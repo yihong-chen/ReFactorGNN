@@ -1,6 +1,6 @@
 # ReFactorGNN
 
-Official demo code for implementing the ReFactor GNN. Refer to our [paper](https://arxiv.org/abs/2207.09980) for more details.
+Official demo code for implementing the ReFactor GNN. We suggest you start with `refactorgnn_demo_sgd_noreg.py`, the very basic version of ReFactorGNN. Then go to `refactorgnn_demo_sgd.py`, which adds the N3 regularizer. Finally, check out the one induced by AdaGrad rather than SGD `refactorgnn_demo_adagrad.py`, which empirically perform better for muliti-relational link prediction tasks. Refer to our [paper](https://arxiv.org/abs/2207.09980) for more details.
 
 If you find the code useful, please cite us by
 ```
